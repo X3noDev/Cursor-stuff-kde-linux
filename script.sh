@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in all-scroll arrow bottom_left_corner bottom_right_corner bottom_side cell center_ptr circle closedhand color-picker col-resize context-menu copy cross crossed_circle crosshair default dnd-copy dnd-move dnd-no-drop dnd-none down-arrow draft e-resize ew-resize fleur forbidden grab grabbing half-busy hand1 hand2 h_double_arrow help ibeam left-arrow left_ptr left_ptr_help left_ptr_watch left_side link move ne-resize nesw-resize no-drop not-allowed n-resize ns-resize nw-resize nwse-resize openhand pencil pirate plus pointer pointing_hand progress question_arrow right-arrow right_ptr right_side row-resize sb_h_double_arrow sb_v_double_arrow se-resize size_all size-bdiag size_bdiag size-fdiag size_fdiag size-hor size_hor size-ver size_ver split_h split_v s-resize sw-resize tcross text top_left_arrow top_left_corner top_right_corner top_side up-arrow v_double_arrow vertical-text wait watch wayland-cursor whats_this w-resize x-cursor xterm zoom-in zoom-out 
+do 
+	ln -s default $i
+done
