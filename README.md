@@ -1,3 +1,3 @@
 # Simple script to change KDE Plasma Cursor
 
-script stuff yep
+Not sure if every mouse cursor state is covered rn, i will have to look into it late.
